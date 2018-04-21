@@ -1,0 +1,28 @@
+/*
+Theme Name: Globals - Material and Bootstrap HTML template
+Module : Hosting
+Description: Index slider styles are defined in this class
+Author: Jyostna
+Author URI: http://themeforest.net/user/jyostna
+Version: 1.0 
+-------------------------------------------- *//*
+TABLE OF CONTENT
+-------------------------------------------------
+1- INDEX SLIDER STYLES
+---------------------------------------------- */
+
+/*========================== INDEX SLIDER STYLES =======================*/
+.largeredbtn{
+    background: #f04e4e !important;
+    border-radius: 28px !important;
+    font-weight: normal;
+    font-family: 'roboto', sans-serif;
+    padding: 8% 19%!important;
+    color: #ffffff !important;
+}
+.largeredbtn:hover{
+    background-color:#00bff3 !important;
+    color:#fff !important;
+}
+
+/*========================== INDEX SLIDER STYLES END =======================*/

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hosting | Dropdown Menu</title>
+    <link rel="icon" type="image/png" href="images/fevicon.png">
+    <!--bootstrap css link-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--roboto font css link-->
+    <link rel="stylesheet" type="text/css" href="css/roboto.min.css">
+    <!--material design css link-->
+    <link rel="stylesheet" type="text/css" href="css/material.css">
+    <link rel="stylesheet" type="text/css" href="css/ripples.min.css">
+    <!--font awesome css link-->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!--leftmenu-->
+    <link rel="stylesheet" type="text/css" href="css/leftmenu/left-menu.css">
+    <!--tooltip-->
+    <link rel="stylesheet" type="text/css" href="css/tooltip/html5tooltips.css">
+    <link rel="stylesheet" type="text/css" href="css/tooltip/html5tooltips.animation.css">
+    <!--hovering drop down css-->
+    <!--custom css link-->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/hosting.css">
+    <link rel="stylesheet" type="text/css" href="css/dropdownmenu.css">
+</head>
+
+<body>
+    <!--Left Menu Button-->
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper">
+            <ul class="nav sidebar-nav">
+                <li class="profile-box">
+                    <div class="slidebar-brand">
+                        <img src="images/left-menu/userprofile.png" class="img-responsive profile" alt="userprofile">
+                        <a href="#" class="profile-name">
+                            Kenneth Hanson
+                        </a>
+                        <a href="#" class="user">
+                            username@gmail.com
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <h3 class="plan-types">Our Services</h3>
+            <ul class="nav sidebar-nav">
+                <li>
+                    <a href="shared-hosting.html" class="plan-a">Shared Hosting</a>
+                </li>
+                <li>
+                    <a href="vps-hosting.html" class="plan-a">VPS Hosting</a>
+                </li>
+                <li>
+                    <a href="dedicated-server.html" class="plan-a">Dedicated Servers</a>
+                </li>
+                <li class="userful-bottom">
+                    <a href="domains.html" class="plan-a">Domains</a>
+                </li>
+            </ul>
+            <ul class="list-unstyled">
+                <li>
+                    <h3 class="plan-types">Useful Links</h3>
+                </li>
+                <li class="user-h">
+                    <a href="index.html" class="leftmenu-a"><i class="mdi-navigation-arrow-forward userful-i"></i> Home</a>
+                </li>
+                <li class="user-h">
+                    <a href="about.html" class="leftmenu-a"><i class="mdi-navigation-arrow-forward userful-i"></i> About Globals</a>
+                </li>
+                <li class="user-h">
+                    <a href="#" class="leftmenu-a"><i class="mdi-navigation-arrow-forward userful-i"></i> My Account</a>
+                </li>
+                <li class="user-h">
+                    <a href="blog.html" class="leftmenu-a"><i class="mdi-navigation-arrow-forward userful-i"></i> Company Blog</a>
+                </li>
+                <li class="user-h">
+                    <a href="contacts.html" class="leftmenu-a"><i class="mdi-navigation-arrow-forward userful-i"></i> Contact Us</a>
+                </li>
+            </ul>
+            <h3 class="drop-search">Search</h3>
+            <form class="hosting" method="post">
+                <div class="form-group label-floating is-empty  plan-type-input">
+                    <label class="control-label" for="fnare">Type and hit Enter...</label>
+                    <input type="text" required="required" id="fnare" class="form-control color-fff">
+                    <span class="material-input"></span></div>
+            </form>
+            <i class="mdi-navigation-arrow-back back-icon"></i>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+    </div>
+    <!--wrapper -->
+    <!--Left Menu Button end-->
+    <!--header section-->
+    <div class="header1">
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a id="nav-expander"><i class="mdi-navigation-menu menu-icon"></i></a>
+                        <a href="index.html">
+                            <img src="images/header/globals-logo.png" alt="logo" class="global-logo"> </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse js-navbar-collapse" id="navbar-navbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="dropdown mega-dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                <ul class="dropdown-menu mega-dropdown-menu row text-center">
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">Our services</li>
+                                            <li>
+                                                <a href="shared-hosting.html#web_hosting">Web Hosting</a>
+                                            </li>
+                                            <li>
+                                                <a href="vps-hosting.html">VPS Hosting</a>
+                                            </li>
+                                            <li>
+                                                <a href="dedicated-server.html">Dedicated Servers</a>
+                                            </li>
+                                            <li>
+                                                <a href="domains.html#register_domain">Register Domains</a>
+                                            </li>
+                                            <li>
+                                                <a href="domains.html#price_list">Transfer of Domains</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">About Us</li>
+                                            <li>
+                                                <a href="about.html">About our company</a>
+                                            </li>
+                                            <li>
+                                                <a href="about.html#meettheteam">Meet Our Team</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#happy_client">Our Clients</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#pricing_plans">Pricing Plans</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">Shortcodes</li>
+                                            <li>
+                                                <a href="styles.html#typography">Typography</a>
+                                            </li>
+                                            <li>
+                                                <a href="styles.html#colorsofsections">Colors of section</a>
+                                            </li>
+                                            <li>
+                                                <a href="styles.html#button">Buttons</a>
+                                            </li>
+                                            <li>
+                                                <a href="styles.html#elements">Form Elements</a>
+                                            </li>
+                                            <li>
+                                                <a href="login-form.html">Login</a>
+                                            </li>
+                                            <li>
+                                                <a href="register-form.html">Register</a>
+                                            </li>
+                                            <li>
+                                                <a href="404-page1.html">404-page1</a>
+                                            </li>
+                                            <li>
+                                                <a href="404-page2.html">404-page2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">Support Center</li>
+                                            <li>
+                                                <a href="contacts.html#contactus">Contact Information</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#customer">Customer Support</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Hosting</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="shared-hosting.html">Shared-Hosting</a>
+                                    </li>
+                                    <li>
+                                        <a href="vps-hosting.html">VPS Hosting</a>
+                                    </li>
+                                    <li>
+                                        <a href="dedicated-server.html">Dedicated Server</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="domains.html">Domains</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <button class="btn btn-default hidden-xs menu-plus-btn" data-tooltip="Invest Now" data-tooltip-stickto="bottom" data-tooltip-color="#313539" data-tooltip-animate-function="foldin"><i class="mdi-content-add plus-btn-icon"></i></button>
+                            </li>
+                            <li class="dropdown hidden-xs">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi-navigation-more-vert menu-icon2"></i></a>
+                                <ul class="menu toggle-menu-possition">
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-social-person menu-i"></i>My Account</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-communication-email menu-i"></i>Messages</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-action-shopping-basket menu-i"></i>Control Panel</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-image-brightness-5 menu-i"></i>Settings</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-navigation-arrow-back menu-i"></i>LOGOUT</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!--header section end-->
+    <!--breadcrumb-->
+    <div class="menu-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ol class="breadcrumb breadcrumb-navigation">
+                        <li>
+                            <a href="#" class="menu1">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu1">Pages</a>
+                        </li>
+                        <li class="active menu3">Dropdown Menu Style</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumb closed-->
+    <!--header2-->
+    <div class="header2">
+        <div class="header-second">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a id="nav-expander2"><i class="mdi-navigation-menu menu-icon"></i></a>
+                        <a href="index.html">
+                            <img src="images/header/globals-logo.png" alt="logo" class="global-logo"> </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                        <ul class="nav navbar-nav navigation-bar">
+                            <li>
+                                <a href="index.html" class="header-nav-a">Home</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="">Pages</a>
+                                <ul class="menu">
+                                    <li>
+                                        <a href="about.html" class="list">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="list">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="list">Support Center</a>
+                                        <ul class="menu">
+                                            <li>
+                                                <a href="#" class="list">Contact information</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="list">Support Ticket</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="list">Live Chat</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="list">Call Center</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html" class="list">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="list">Pricing Table</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="list">Login/Register</a>
+                                        <ul class="menu">
+                                            <li>
+                                                <a href="login-form.html" class="list">Login Form</a>
+                                            </li>
+                                            <li>
+                                                <a href="register-form.html" class="list">Register Form</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="list">Not Found</a>
+                                        <ul class="menu">
+                                            <li>
+                                                <a href="404-page1.html" class="list">404 Page1</a>
+                                            </li>
+                                            <li>
+                                                <a href="404-page2.html" class="list">404 Page2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="list">Terms &amp; Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="list">Search Results</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle header-nav-a" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hosting</a>
+                                <ul class="menu">
+                                    <li>
+                                        <a href="shared-hosting.html" class="list">Shared-Hosting</a>
+                                    </li>
+                                    <li>
+                                        <a href="vps-hosting.html" class="list">VPS Hosting</a>
+                                    </li>
+                                    <li>
+                                        <a href="dedicated-server.html" class="list">Dedicated Server</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="domains.html" class="header-nav-a">Domains</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle header-nav-a" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                <ul class="menu">
+                                    <li>
+                                        <a href="blog.html" class="list">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-details.html" class="list">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contacts.html" class="header-nav-a">Contacts</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <button class="btn btn-fab btn-raised btn-primary hidden-xs" data-tooltip="Support Center" data-tooltip-stickto="bottom" data-tooltip-color="#313539" data-tooltip-animate-function="foldin"><i class="mdi-content-add"></i></button>
+                            </li>
+                            <li class="dropdown hidden-xs">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi-navigation-more-vert menu-icon2"></i></a>
+                                <ul class="menu toggle-menu-possition">
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-social-person menu-i"></i>My Account</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-communication-email menu-i"></i>Messages</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-action-shopping-basket menu-i"></i>Control Panel</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-image-brightness-5 menu-i"></i>Settings</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-navigation-arrow-back menu-i"></i>LOGOUT</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--header2 closed-->
+    <!--breadcrumb-->
+    <div class="menu-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ol class="breadcrumb breadcrumb-navigation">
+                        <li>
+                            <a href="#" class="menu1">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu1">Pages</a>
+                        </li>
+                        <li class="active menu3">Dropdown Menu Style</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumb closed-->
+    <!--header2-->
+    <div class="header3">
+        <div class="header-third">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a id="nav-expander3"><i class="mdi-navigation-menu menu-icon"></i></a>
+                        <a href="index.html">
+                            <img src="images/header/globals-logo.png" alt="logo" class="global-logo"> </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse js-navbar-collapse" id="navbar-navbar2">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="dropdown mega-dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                <ul class="dropdown-menu mega-dropdown-menu row text-center">
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">Our services</li>
+                                            <li>
+                                                <a href="shared-hosting.html#web_hosting">Web Hosting</a>
+                                            </li>
+                                            <li>
+                                                <a href="vps-hosting.html">VPS Hosting</a>
+                                            </li>
+                                            <li>
+                                                <a href="dedicated-server.html">Dedicated Servers</a>
+                                            </li>
+                                            <li>
+                                                <a href="domains.html#register_domain">Register Domains</a>
+                                            </li>
+                                            <li>
+                                                <a href="domains.html#price_list">Transfer of Domains</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">About Us</li>
+                                            <li>
+                                                <a href="about.html">About our company</a>
+                                            </li>
+                                            <li>
+                                                <a href="about.html#meettheteam">Meet Our Team</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#happy_client">Our Clients</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#pricing_plans">Pricing Plans</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">Shortcodes</li>
+                                            <li>
+                                                <a href="styles.html#typography">Typography</a>
+                                            </li>
+                                            <li>
+                                                <a href="styles.html#colorsofsections">Colors of section</a>
+                                            </li>
+                                            <li>
+                                                <a href="styles.html#button">Buttons</a>
+                                            </li>
+                                            <li>
+                                                <a href="styles.html#elements">Form Elements</a>
+                                            </li>
+                                            <li>
+                                                <a href="login-form.html">Login</a>
+                                            </li>
+                                            <li>
+                                                <a href="register-form.html">Register</a>
+                                            </li>
+                                            <li>
+                                                <a href="404-page1.html">404-page1</a>
+                                            </li>
+                                            <li>
+                                                <a href="404-page2.html">404-page2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">Support Center</li>
+                                            <li>
+                                                <a href="contacts.html#contactus">Contact Information</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#customer">Customer Support</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Hosting</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="shared-hosting.html">Shared-Hosting</a>
+                                    </li>
+                                    <li>
+                                        <a href="vps-hosting.html">VPS Hosting</a>
+                                    </li>
+                                    <li>
+                                        <a href="dedicated-server.html">Dedicated Server</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="domains.html">Domains</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <button class="btn btn-default hidden-xs menu-plus-btn" data-tooltip="Invest Now" data-tooltip-stickto="bottom" data-tooltip-color="#313539" data-tooltip-animate-function="foldin"><i class="mdi-content-add plus-btn-icon"></i></button>
+                            </li>
+                            <li class="dropdown hidden-xs">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi-navigation-more-vert menu-icon2"></i></a>
+                                <ul class="menu toggle-menu-possition">
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-social-person menu-i"></i>My Account</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-communication-email menu-i"></i>Messages</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-action-shopping-basket menu-i"></i>Control Panel</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-image-brightness-5 menu-i"></i>Settings</a>
+                                    </li>
+                                    <li class="drop li-h">
+                                        <a href="#" class="icon-centent"><i class="mdi-navigation-arrow-back menu-i"></i>LOGOUT</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--header2 closed-->
+    <!--breadcrumb-->
+    <div class="menu-bar third-header-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ol class="breadcrumb breadcrumb-navigation">
+                        <li>
+                            <a href="#" class="menu1">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu1">Pages</a>
+                        </li>
+                        <li class="active menu3">Dropdown Menu Style</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumb closed-->
+    <!--Back to top button-->
+    <a href="#" id="back-to-top" title="Back to top" class="arrow-btn btn btn-default"><i class="mdi-hardware-keyboard-arrow-up arrow-footer"></i></a>
+    <!--Back to top button end-->
+    <!--jquery js file-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <!--bootstrap js files-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="js/material.min.js"></script>
+    <script type="text/javascript" src="js/ripples.min.js"></script>
+    <!-- custom js file-->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!--left menu-->
+    <script type="text/javascript" src="js/leftmenu/left-menu.js"></script>
+    <!--tooltip js file-->
+    <script type="text/javascript" src="js/tooltip/html5tooltips.js"></script>
+</body>
+
+</html>
